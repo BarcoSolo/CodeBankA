@@ -1,0 +1,7 @@
+import java.io.*;
+import java.util.*;
+
+    public static void main(String[] args) throws Exception {
+
+    Scanner fsc = new Scanner(new File("numbers.text"));
+    PrintStream ps = new PrintStream("results.text");
